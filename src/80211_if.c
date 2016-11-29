@@ -125,8 +125,6 @@ static struct ieee80211_channel dsss_chantable[] = {
 	CHAN2G(2484, 13), /* Channel 14 */
 };
 
-/*DFS channel currently not supported in the AP mode*/
-
 static struct ieee80211_channel ofdm_chantable[] = {
 	CHAN5G(5180, 14, 0), /* Channel 36 */
 	CHAN5G(5200, 15, 0), /* Channel 40 */
